@@ -1,0 +1,26 @@
+---
+
+title: Setting Up Your Own Blog powered by Gatsby and Markdown
+date: 2021-02-09
+description: 
+
+tags:
+
+- gatsby
+- react
+
+banner: {URL to image}
+
+canonicalUrl: https://blog.brandonly.me/{URL}
+
+---
+
+1. Went to Gatsby Starter templates and looked through
+    - Took me a while to decide
+    - Settled on Minimal Blog by LekoArts
+2. Cloned and setup locally + pushed to github
+3. Customizing the theme with Gatsby Shadowing
+    - You need your own src folder
+    - In node modules it was `node_modules/@lekoarts/gatsby-theme-minimal-blog/src/*`
+    - In mine it was `blog/src/@lekoarts/gatsby-theme-minimal-blog/*`
+    - Didn't work for me at first, had to delete .cache and restart `gatsby develop`

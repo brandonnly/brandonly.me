@@ -6,31 +6,32 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Brandon Ly`,
+    siteTitleAlt: `Brandon Ly - Blog`,
+    siteHeadline: `Brandon Ly's Blog`,
+    siteUrl: `https://blog.brandonly.me`,
+    siteDescription: `Hey I'm Brandon and welcome to my Blog! I write about pretty much anything that comes my teenage mind :)`,
+    siteLanguage: `en`,
+    siteImage: `/me.jpg`,
+    author: `@pretty___pn`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
-        navigation: [
-          {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
-        ],
         externalLinks: [
           {
+            name: `GitHub`,
+            url: `https://brandonly.me/github`,
+          },
+          {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://brandonly.me/twitter`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://brandonly.me/instagram`,
           },
         ],
       },
