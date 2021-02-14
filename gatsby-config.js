@@ -7,10 +7,10 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     siteTitle: `Brandon Ly`,
-    siteTitleAlt: `Brandon Ly - Blog`,
-    siteHeadline: `Brandon Ly's Blog`,
+    siteTitleAlt: `Brandon Ly`,
+    siteHeadline: `Brandon Ly`,
     siteUrl: `https://blog.brandonly.me`,
-    siteDescription: `Hey I'm Brandon and welcome to my Blog! I write about pretty much anything that comes my teenage mind :)`,
+    siteDescription: `Hi! Im Brandon, a highschool senior who's having a little too much fun with Discord bots and esports :)`,
     siteLanguage: `en`,
     siteImage: `/me.jpg`,
     author: `@pretty___pn`,
@@ -24,6 +24,10 @@ module.exports = {
           {
             name: `GitHub`,
             url: `https://brandonly.me/github`,
+          },
+          {
+            name: 'LinkedIn',
+            url: 'https://brandonly.me/linkedin'
           },
           {
             name: `Twitter`,
