@@ -9,7 +9,7 @@ module.exports = {
     siteTitle: `Brandon Ly`,
     siteTitleAlt: `Brandon Ly`,
     siteHeadline: `Brandon Ly`,
-    siteUrl: `https://blog.brandonly.me`,
+    siteUrl: `https://brandonly.me`,
     siteDescription: `Hi! Im Brandon, a highschool senior who's having a little too much fun with Discord bots and esports :)`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
@@ -36,10 +36,6 @@ module.exports = {
           {
             name: `Instagram`,
             url: `https://brandonly.me/instagram`,
-          },
-          {
-            name: `Vaughan Esports`,
-            url: `https://vaughanesports.org`,
           },
         ],
       },

@@ -1,4 +1,4 @@
-# blog.brandonly.me
+# brandonly.me
 
 Heya just getting started on my blog! Will update this soon :)
 
