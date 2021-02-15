@@ -37,6 +37,10 @@ module.exports = {
             name: `Instagram`,
             url: `https://brandonly.me/instagram`,
           },
+          {
+            name: `Vaughan Esports`,
+            url: `https://vaughanesports.org`,
+          },
         ],
       },
     },
