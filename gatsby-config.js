@@ -12,7 +12,7 @@ module.exports = {
     siteUrl: `https://blog.brandonly.me`,
     siteDescription: `Hi! Im Brandon, a highschool senior who's having a little too much fun with Discord bots and esports :)`,
     siteLanguage: `en`,
-    siteImage: `/me.jpg`,
+    siteImage: `/banner.jpg`,
     author: `@pretty___pn`,
   },
   plugins: [
