@@ -13,7 +13,7 @@ module.exports = {
     siteDescription: `Hi! Im Brandon, a highschool senior who's having a little too much fun with Discord bots and esports :)`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@pretty___pn`,
+    author: `brndnly`,
   },
   plugins: [
     {
@@ -38,12 +38,6 @@ module.exports = {
             url: `https://brandonly.me/instagram`,
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     `gatsby-plugin-sitemap`,
