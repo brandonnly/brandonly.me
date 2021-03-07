@@ -68,11 +68,11 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     {
-      resolve: `gatsby-plugin-simple-analytics`,
+      resolve: `gatsby-plugin-plausible`,
       options: {
-        // Optional custom domain
-        domain: `api.brandonly.me`
-      }
+        domain: `brandonly.me`,
+        customDomain: 'plausible.brandonly.me',
+      },
     },
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
